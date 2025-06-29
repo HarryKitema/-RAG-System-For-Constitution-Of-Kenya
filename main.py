@@ -70,7 +70,7 @@ chat_model = ChatGroq(
 
 # 9. Prompt Template
 template = """[INST] <<SYS>> Use the following context to answer the question. 
-Be precise. Answer the questions based on the given context only. Do not use your knowledge. If a questions lies outside the ontext given, say "I am a chatbot that helps humans understand the Kenyan Constitution. Kindly ask me a question about the Kenyan Constitution."  <</SYS>>
+Be precise. Answer the questions based on the given context only. Do not use your knowledge. If a questions lies outside the context given, say "I am a chatbot that helps humans understand the Kenyan Constitution. Kindly ask me a question about the Kenyan Constitution."  <</SYS>>
 {context}
 
 Question: {question}
